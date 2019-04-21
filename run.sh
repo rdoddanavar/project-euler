@@ -6,7 +6,7 @@ PREFIX="problem"
 NUM="$1" # Program input
 make all # Build 
 
-EXEDIR+=$PREFIX # Build path
+EXEDIR+=$PREFIX # Create exe path
 EXEDIR+=$NUM
 
 $EXEDIR # Execute
