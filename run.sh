@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 EXEDIR="/home/${USER}/Git/project-euler/bin/"
-PREFIX="problem"
+PREFIX='problem'
 
 NUM="$1" # Program input
 make all # Build 
